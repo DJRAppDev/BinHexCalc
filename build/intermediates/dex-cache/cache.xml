@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\wengj1\.android\build-cache\62af08d4170869c8477d6386bfae00bc36206299\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="H:\BinHexCalc\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2c2494e3a3ffb2344da7282bc25ae76afc8f2eb5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wengj1\.android\build-cache\784f90b65b96ef741ed316cf947da3603c7f43b0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="H:\BinHexCalc\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_43f9852cca97d597875d5b9a0cb694c23daca09c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="H:\BinHexCalc\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="H:\BinHexCalc\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_cfa1b4068be27400d68be00af4d70e858d3e4a96\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wengj1\.android\build-cache\a5f2b1626c11a98f2c3c5fbbbe935e983a687287\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="H:\BinHexCalc\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_67569f206d6899af4716ce076809dec6ad5f8240\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wengj1\.android\build-cache\e4d615b38777564ab3314c75a1bfbc8d820dbbce\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="H:\BinHexCalc\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f610b830140c55be0cdeae9275ca757fa6b9c772\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wengj1\.android\build-cache\248eede0337131d809f2776c55687b1c96bd7e6e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="H:\BinHexCalc\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3fd95c5718600f51ceeda8aa09d517ba2cbbad06\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wengj1\.android\build-cache\3f2a8ef1f5cb986321f7de7685d432a8719a7cfd\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="H:\BinHexCalc\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c6b36aabf3171b809708f363e7842393186c7a05\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wengj1\.android\build-cache\ecb678184beb529ce1d2ab7f855607c067227c6d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="H:\BinHexCalc\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_adf22de2366e4f92f1d4a90300ed47afd4132e4b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wengj1\.android\build-cache\c65b1971e213d2cc5504b72c8c6ed5ec4ea56460\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="H:\BinHexCalc\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_dca45848a1476aba30e1833b2a3233bc8f560297\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="A:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="H:\BinHexCalc\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-26.0.0-alpha1_978ef1808c46db95bf20091d9701f997b9906962\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wengj1\.android\build-cache\44e8966ffe10a37f1ff8a8c3302ef26eb3922b11\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="H:\BinHexCalc\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cf2fbf25e7fffb27eb195a4a47a1e6173c26bae2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wengj1\.android\build-cache\6238e376b7c161503e78ed8399bd00f8537d83a5\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="H:\BinHexCalc\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1f1ca524a3e85833cf7bd4ea1dc9867cff1c4ffb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="A:\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="H:\BinHexCalc\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_df8a00a1b6b08a0ed4e6b47f2110042ca7717b29\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="H:\BinHexCalc\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2894b59f23c7c1bc969483814076cc3c2be4ab71">
+        <dex dex="H:\BinHexCalc\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_f377b7862758649b65d66232c260ab3452160738\classes.dex" />
+    </item>
+
+</items>
