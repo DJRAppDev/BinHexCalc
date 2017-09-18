@@ -11,14 +11,8 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5722faf7-413a-4fdb-abc0-69c3ea39357d" name="Default" comment="Add more buttons and begin coding">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="5722faf7-413a-4fdb-abc0-69c3ea39357d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/org/eu/weng/binhexcalc/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/eu/weng/binhexcalc/MainActivity.java" />
     </list>
     <ignored path="BinHexCalc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,7 +64,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/org/eu/weng/binhexcalc/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
-              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#406#407#0" expanded="true" />
@@ -79,12 +73,12 @@
                 <element signature="e#498#499#0" expanded="true" />
                 <element signature="e#540#541#0" expanded="true" />
                 <element signature="e#565#566#0" expanded="true" />
-                <element signature="e#607#608#0" expanded="true" />
-                <element signature="e#632#633#0" expanded="true" />
-                <element signature="e#674#675#0" expanded="true" />
-                <element signature="e#699#700#0" expanded="true" />
-                <element signature="e#741#742#0" expanded="true" />
-                <element signature="e#766#767#0" expanded="true" />
+                <element signature="e#608#609#0" expanded="true" />
+                <element signature="e#633#634#0" expanded="true" />
+                <element signature="e#676#677#0" expanded="true" />
+                <element signature="e#701#702#0" expanded="true" />
+                <element signature="e#744#745#0" expanded="true" />
+                <element signature="e#769#770#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -2377,7 +2371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1505695906251</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added skeleton methods for conversions, still need to actually do them">
+      <created>1505703874681</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1505703874681</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2445,7 +2446,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add more buttons and begin coding" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add more buttons and begin coding" />
+    <MESSAGE value="Added skeleton methods for conversions, still need to actually do them" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added skeleton methods for conversions, still need to actually do them" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -2478,12 +2480,12 @@
             <element signature="e#498#499#0" expanded="true" />
             <element signature="e#540#541#0" expanded="true" />
             <element signature="e#565#566#0" expanded="true" />
-            <element signature="e#607#608#0" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-            <element signature="e#674#675#0" expanded="true" />
-            <element signature="e#699#700#0" expanded="true" />
-            <element signature="e#741#742#0" expanded="true" />
-            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#744#745#0" expanded="true" />
+            <element signature="e#769#770#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2549,7 +2551,7 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/org/eu/weng/binhexcalc/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#406#407#0" expanded="true" />
@@ -2558,12 +2560,12 @@
             <element signature="e#498#499#0" expanded="true" />
             <element signature="e#540#541#0" expanded="true" />
             <element signature="e#565#566#0" expanded="true" />
-            <element signature="e#607#608#0" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-            <element signature="e#674#675#0" expanded="true" />
-            <element signature="e#699#700#0" expanded="true" />
-            <element signature="e#741#742#0" expanded="true" />
-            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#744#745#0" expanded="true" />
+            <element signature="e#769#770#0" expanded="true" />
           </folding>
         </state>
       </provider>
