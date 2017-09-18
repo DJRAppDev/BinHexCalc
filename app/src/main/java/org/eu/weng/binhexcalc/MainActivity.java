@@ -21,6 +21,17 @@ public class MainActivity extends AppCompatActivity {
         return "";
     }
 
+    private String binToHex(String bin) {
+        return "";
+    }
+
+    private String hexToDec(String hex) {
+        return "";
+    }
+
+    private String hexToBin(String hex) {
+        return "";
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
