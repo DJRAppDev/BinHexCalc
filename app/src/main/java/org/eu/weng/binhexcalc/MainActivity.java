@@ -11,6 +11,14 @@ public class MainActivity extends AppCompatActivity {
     private EditText numIn;
     private RadioGroup choice;
 
+    private int find(String a, String[] arr) {
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i].equals(a)) {
+                return i;
+            }
+        }
+        return -1;
+    }
     private String decToBin(String dec) {
         String result = "";
         int decimal = Integer.parseInt(dec);
@@ -61,8 +69,13 @@ public class MainActivity extends AppCompatActivity {
     private String hexToDec(String hex) {
         String hex2 = hex.toUpperCase();
         String[] convArr = {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F"};
-
-        return result;
+        int power = 0;
+        int result = 0;
+        for (int i = hex2.length(); i > 0; i--) {
+            result += find(hex2.substring(i - 1, i), convArr) * Math.pow(16, power);
+            power++;
+        }
+        return "" + result;
     }
     private String hexToBin(String hex) {
         return decToBin(hexToDec(hex));
