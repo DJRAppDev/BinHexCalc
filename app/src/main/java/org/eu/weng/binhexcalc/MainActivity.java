@@ -12,10 +12,29 @@ public class MainActivity extends AppCompatActivity {
     private RadioGroup choice;
 
     private String decToBin(String dec) {
-        return "";
+        String result = "";
+        int decimal = Integer.parseInt(dec);
+        int power = (int)(Math.log(decimal)/Math.log(2));
+        while (decimal > 0) {
+            if (Math.pow(2,power) <= decimal) {
+                result += "1";
+                decimal-=Math.pow(2,power);
+            }
+            else {
+                result += "0";
+            }
+            power--;
+        }
+        while (power >= 0) {
+            result+="0";
+            power--;
+        }
+        return result;
     }
     private String decToHex(String dec) {
-        return "";
+        int intermediary;
+        intermediary = Integer.parseInt(decToBin(dec));
+
     }
     private String binToDec(String bin) {
         return "";
