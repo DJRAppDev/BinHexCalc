@@ -14,42 +14,58 @@ public class MainActivity extends AppCompatActivity {
     private String decToBin(String dec) {
         String result = "";
         int decimal = Integer.parseInt(dec);
-        int power = (int)(Math.log(decimal)/Math.log(2));
+        int power = (int) (Math.log(decimal) / Math.log(2));
         while (decimal > 0) {
-            if (Math.pow(2,power) <= decimal) {
+            if (Math.pow(2, power) <= decimal) {
                 result += "1";
-                decimal-=Math.pow(2,power);
-            }
-            else {
+                decimal -= Math.pow(2, power);
+            } else {
                 result += "0";
             }
             power--;
         }
         while (power >= 0) {
-            result+="0";
+            result += "0";
             power--;
         }
         return result;
     }
     private String decToHex(String dec) {
-        int intermediary;
-        intermediary = Integer.parseInt(decToBin(dec));
-
+        return binToHex(decToBin(dec));
     }
     private String binToDec(String bin) {
-        return "";
+        int power = 0;
+        int intermediary = 0;
+        for (int i = bin.length(); i > 0; i--) {
+            intermediary += Integer.parseInt(bin.substring(i - 1, i)) * Math.pow(2, power);
+            power++;
+        }
+        return "" + intermediary;
     }
-
     private String binToHex(String bin) {
-        return "";
+        String intermediary = "";
+        String[] convArr = {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F"};
+        for (int i = bin.length(); i > 0; i -= 4) {
+            if (i - 4 >= 0) {
+                intermediary += convArr[Integer.parseInt(binToDec(bin.substring(i - 4, i)))];
+            } else {
+                intermediary += convArr[Integer.parseInt(binToDec(bin.substring(0, i)))];
+            }
+        }
+        String result = "";
+        for (int i = intermediary.length(); i > 0; i--) {
+            result += intermediary.substring(i - 1, i);
+        }
+        return result;
     }
-
     private String hexToDec(String hex) {
-        return "";
-    }
+        String hex2 = hex.toUpperCase();
+        String[] convArr = {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F"};
 
+        return result;
+    }
     private String hexToBin(String hex) {
-        return "";
+        return decToBin(hexToDec(hex));
     }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
