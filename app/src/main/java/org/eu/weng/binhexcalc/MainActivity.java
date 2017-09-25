@@ -2,16 +2,19 @@ package org.eu.weng.binhexcalc;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioGroup;
 import android.widget.TextView;
+import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private TextView decOut, hexOut, binOut;
     private EditText numIn;
     private RadioGroup choice;
+    private Button convert;
 
-    private int find(String a, String[] arr) {
+    private static int find(String a, String[] arr) {
         for (int i = 0; i < arr.length; i++) {
             if (arr[i].equals(a)) {
                 return i;
@@ -19,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         }
         return -1;
     }
-    private String decToBin(String dec) {
+    private static String decToBin(String dec) {
         String result = "";
         int decimal = Integer.parseInt(dec);
         int power = (int) (Math.log(decimal) / Math.log(2));
@@ -38,10 +41,10 @@ public class MainActivity extends AppCompatActivity {
         }
         return result;
     }
-    private String decToHex(String dec) {
+    private static String decToHex(String dec) {
         return binToHex(decToBin(dec));
     }
-    private String binToDec(String bin) {
+    private static String binToDec(String bin) {
         int power = 0;
         int intermediary = 0;
         for (int i = bin.length(); i > 0; i--) {
@@ -50,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
         }
         return "" + intermediary;
     }
-    private String binToHex(String bin) {
+    private static String binToHex(String bin) {
         String intermediary = "";
         String[] convArr = {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F"};
         for (int i = bin.length(); i > 0; i -= 4) {
@@ -66,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
         }
         return result;
     }
-    private String hexToDec(String hex) {
+    private static String hexToDec(String hex) {
         String hex2 = hex.toUpperCase();
         String[] convArr = {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F"};
         int power = 0;
@@ -77,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
         }
         return "" + result;
     }
-    private String hexToBin(String hex) {
+    private static String hexToBin(String hex) {
         return decToBin(hexToDec(hex));
     }
     @Override
@@ -86,10 +89,25 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //Sets the TextViews, EditText, and RadioGroups to the objects
-        decOut = (TextView)findViewById(R.id.decOut);
-        binOut = (TextView)findViewById(R.id.binOut);
-        hexOut = (TextView)findViewById(R.id.hexOut);
-        numIn = (EditText)findViewById(R.id.numIn);
-        choice = (RadioGroup)findViewById(R.id.choice);
+        decOut = (TextView) findViewById(R.id.decOut);
+        binOut = (TextView) findViewById(R.id.binOut);
+        hexOut = (TextView) findViewById(R.id.hexOut);
+        numIn = (EditText) findViewById(R.id.numIn);
+        choice = (RadioGroup) findViewById(R.id.choice);
+        convert = (Button) findViewById(R.id.convert);
+        convert.setOnClickListener(this);
+    }
+
+    @Override
+    public void onClick(View view) {
+        switch(choice.getCheckedRadioButtonId()) {
+            case 0:
+                decOut.setText(numIn.getText());
+                binOut.setText(decToBin(numIn.getText().toString()));
+                hexOut.setText(decToHex(numIn.getText().toString()));
+                break;
+            default:
+                break;
+        }
     }
 }
